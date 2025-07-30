@@ -40,6 +40,8 @@ loopfib:
 
     dec r11 ; decrement number of elements (for the loop)
     jnz loopfib
+    xor ecx,ecx
+    jmp exit
 
 exit:
     ret
