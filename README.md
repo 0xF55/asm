@@ -4,3 +4,5 @@
 # For MASM
 ```masm
 - Fibonacci
+- Custom Functions (strlen...)
+
