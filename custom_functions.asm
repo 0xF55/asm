@@ -1,3 +1,7 @@
+; day 10 learning asm
+; Works For MASM Only
+; x64 Calling Convention
+
 .code
 
 ASMstrlen proc
@@ -80,3 +84,4 @@ ASMmemcpy endp
 
 
 end
+
