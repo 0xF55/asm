@@ -65,8 +65,6 @@ ASMmemcpy proc
 
 	xor rax,rax
 
-	xor rax,rax
-
 	mov rsi,rdx
 	mov rdi,rcx
 	mov rcx,r8
@@ -77,6 +75,7 @@ exit:
 	ret
 
 ASMmemcpy endp
+
 
 
 
